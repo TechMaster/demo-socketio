@@ -17,6 +17,8 @@
 		E24BA4CE1EE5677700594FE8 /* ConsoleScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24BA4CA1EE5677700594FE8 /* ConsoleScreen.swift */; };
 		E24BA4CF1EE5677700594FE8 /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24BA4CB1EE5677700594FE8 /* MainScreen.swift */; };
 		E24BA4D01EE5677700594FE8 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24BA4CC1EE5677700594FE8 /* Menu.swift */; };
+		E24BA4D41EE56CC400594FE8 /* ChatClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24BA4D21EE56CC400594FE8 /* ChatClient.swift */; };
+		E24BA4D51EE56CC400594FE8 /* ChatClient.xib in Resources */ = {isa = PBXBuildFile; fileRef = E24BA4D31EE56CC400594FE8 /* ChatClient.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		E24BA4CA1EE5677700594FE8 /* ConsoleScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ConsoleScreen.swift; path = Main/ConsoleScreen.swift; sourceTree = "<group>"; };
 		E24BA4CB1EE5677700594FE8 /* MainScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainScreen.swift; path = Main/MainScreen.swift; sourceTree = "<group>"; };
 		E24BA4CC1EE5677700594FE8 /* Menu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Menu.swift; path = Main/Menu.swift; sourceTree = "<group>"; };
+		E24BA4D21EE56CC400594FE8 /* ChatClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChatClient.swift; path = SocketDemo/ChatClient.swift; sourceTree = "<group>"; };
+		E24BA4D31EE56CC400594FE8 /* ChatClient.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ChatClient.xib; path = SocketDemo/ChatClient.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,7 +92,7 @@
 			children = (
 				E24BA4C61EE566BF00594FE8 /* Main */,
 				E24BA4C41EE5084300594FE8 /* send.png */,
-				E24BA4B41EE4F18500594FE8 /* PingPong.swift */,
+				E24BA4D11EE56C9900594FE8 /* SocketDemo */,
 				E24BA4B91EE4F18500594FE8 /* Assets.xcassets */,
 				E24BA4BB1EE4F18500594FE8 /* LaunchScreen.storyboard */,
 				E24BA4BE1EE4F18500594FE8 /* Info.plist */,
@@ -107,6 +111,16 @@
 			);
 			name = Main;
 			path = ..;
+			sourceTree = "<group>";
+		};
+		E24BA4D11EE56C9900594FE8 /* SocketDemo */ = {
+			isa = PBXGroup;
+			children = (
+				E24BA4B41EE4F18500594FE8 /* PingPong.swift */,
+				E24BA4D21EE56CC400594FE8 /* ChatClient.swift */,
+				E24BA4D31EE56CC400594FE8 /* ChatClient.xib */,
+			);
+			name = SocketDemo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -173,6 +187,7 @@
 			files = (
 				E24BA4BD1EE4F18500594FE8 /* LaunchScreen.storyboard in Resources */,
 				E24BA4C51EE5084300594FE8 /* send.png in Resources */,
+				E24BA4D51EE56CC400594FE8 /* ChatClient.xib in Resources */,
 				E24BA4BA1EE4F18500594FE8 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -238,6 +253,7 @@
 				E24BA4CF1EE5677700594FE8 /* MainScreen.swift in Sources */,
 				E24BA4CD1EE5677700594FE8 /* BootLogic.swift in Sources */,
 				E24BA4B31EE4F18500594FE8 /* AppDelegate.swift in Sources */,
+				E24BA4D41EE56CC400594FE8 /* ChatClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -11,6 +11,7 @@ class BootLogic: NSObject {
     class func boot(_ window:UIWindow){
         let basic = MenuSection(section: "Basic", menus:[
             Menu(title: "Ping - Pong", viewClass: "PingPong"),
+            Menu(title: "Chat", viewClass: "ChatClient"),
             ])
 
         
